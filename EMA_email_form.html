@@ -43,6 +43,54 @@
 
 </div>
 
+<div class="main_window">
+
+    <div class="breadcrumb_bar">
+
+
+        MAILINGS &gt; CREATE MAILING
+    </div>
+
+    <div class="content">
+
+
+        <form id="message_form" action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post">
+
+
+            <div class="form_field" id="form_title">
+                <label class="form_label" for="title">Message Title</label>
+                <input class="form_input" type="text" id="title" name="title"/>
+            </div>
+
+            <div class="form_field" id="form_date">
+                <label class="form_label" for="date">Date of Dispatch:</label>
+                <input class="form_input" type="text" id="dispatch_date" name="date"/>
+            </div>
+
+            <div class="form_field" id="form_file">
+                <label class="form_label" for="file">File Attachment:</label>
+                <input class="form_input" type="file" id="attached_file" name="file"/>
+            </div>
+
+            <div class="form_field" id="form_message_text">
+                <label class="form_label" for="name">Message Text:</label>
+    <textarea rows="8" cols="50" class="form_input" id="message_text" name="text">
+    </textarea>
+            </div>
+
+            <div class="form_button">
+                <input id="form_button_input" type="submit" value="submit" name="submit"/>
+            </div>
+
+            <div><input type="hidden" value="ABCDEF01-AABB-CCDD-EEFF-ABCDEF012345" name="sessionID"/>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
 
 </body>
 </html>
